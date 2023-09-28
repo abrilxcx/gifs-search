@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'gifs-search-box',
   template: `
     <input type="text"
-    class="form-control"
+    class="form-control mb-3"
     placeholder="buscar gifs...">
   `
 })
