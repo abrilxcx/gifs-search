@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-search-box',
-  templateUrl: './search-box.component.html',
-  styleUrls: ['./search-box.component.css']
+  selector: 'gifs-search-box',
+  template: `
+    <input type="text"
+    class="form-control"
+    placeholder="buscar gifs...">
+  `
 })
 export class SearchBoxComponent {
 
