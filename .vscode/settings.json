@@ -1,0 +1,13 @@
+{
+   "files.exclude": {
+      "**/.angular.json": true,
+      "**/.editorconfig": true,
+      "**/.gitignore": true,
+      "**/*.json": true,
+      "**/*.md": true
+   },
+   "todo-tree.filtering.excludeGlobs": [
+      "**/node_modules/*/**",
+      "**/.md"
+   ]
+}
